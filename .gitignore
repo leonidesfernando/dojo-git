@@ -1,0 +1,16 @@
+/target/
+.project
+.classpath
+.settings
+build
+.springBeans
+faces-config.pageflow
+Servers/
+.metadata/
+
+conf/desenvolvimento/app.properties
+
+src/main/resources/rebel.xml
+*.orig
+/test-output
+*.db
