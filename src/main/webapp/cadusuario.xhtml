@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets"> 
+
+<h:head></h:head> 
+<body> 
+
+
+<h:form id="form">
+	<p:messages />
+	<div>
+		<div>
+			<label>Nome</label>
+			<p:inputText required="true" requiredMessage="O nome deve ser informardo" 
+			value="" />
+		</div>
+		<div>
+			<label>Email</label>
+			<p:inputText required="true" requiredMessage="O email deve ser informado" 
+			value="" />
+		</div>
+		
+		
+		
+	</div>
+	<div>
+		<p:commandButton value="Salvar" ajax="false" action="" />
+		<p:commandButton process="@this" value="Cancelar" update="@form"  action="" />
+	</div>
+	
+</h:form>
+
+
+</body> 
+</html>
